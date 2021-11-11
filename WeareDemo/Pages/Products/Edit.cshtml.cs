@@ -54,7 +54,7 @@ namespace WeareDemo.Pages.Products
 
         public IActionResult OnPost()
         {
-            if (ModelState.IsValid)
+            if (ModelState.IsValid) 
             {
                 if (Photo != null)
                 {

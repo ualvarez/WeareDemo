@@ -17,9 +17,9 @@ namespace WeareDemo.Services
 
         public DBProductRepository()
         {
-            StreamReader r = new StreamReader("appSettings.json");
+            /*StreamReader r = new StreamReader("appSettings.json");
             string jsonString = r.ReadToEnd();
-            AppSettings m = JsonConvert.DeserializeObject<AppSettings>(jsonString);
+            AppSettings m = JsonConvert.DeserializeObject<AppSettings>(jsonString);*/
 
              con = new SqlConnection("server=LAPTOP-4I29AMO5;database=weareDemo;integrated security=true");
         }
