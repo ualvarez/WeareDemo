@@ -1,0 +1,17 @@
+﻿@page "{id}"
+@model WeareDemo.Pages.Products.DeleteModel
+@{
+    ViewData["Title"] = "Delete";
+    ViewData["ShowButtons"] = false;
+}
+
+<h1>Delete Confirmation</h1>
+
+<div class="alert alert-danger">
+    <partial name="_DisplayProductPartial" model="Model.Product" view-data="ViewData"/>
+    <h5>Are You sure you want to delete Product - @Model.Product.Name</h5>
+    <form method="post">
+        <button type="submit" class="btn btn-danger">Yes</button>
+        <a class="btn btn-primary" asp-page="/Products/Index">No</a>
+    </form>
+</div>

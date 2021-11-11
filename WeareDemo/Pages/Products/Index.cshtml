@@ -1,0 +1,19 @@
+﻿@page 
+@model WeareDemo.Pages.Products.IndexModel
+@{
+    ViewData["Title"] = "Index";
+    ViewData["ShowButtons"] = true;
+}
+
+<style>
+    .btn{width: 75px}
+</style>
+
+<h1>Products</h1>
+
+<div class="card-deck">
+    @foreach (var product in Model.Products)
+    {
+      <partial name="_DisplayProductPartial" model="product" view-data="ViewData"/>
+    }
+</div>

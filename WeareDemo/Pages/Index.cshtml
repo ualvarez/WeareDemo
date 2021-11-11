@@ -1,0 +1,13 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">@Model.Message</h1>
+   
+    <div class="col-sm-8">
+        @await Component.InvokeAsync("HeadCount")
+    </div>
+</div>

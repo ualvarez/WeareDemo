@@ -1,0 +1,21 @@
+﻿@model IEnumerable<TypeHeadCount>
+
+<h3>Product Head Count Summary</h3>
+
+<table class="table table-bordered">
+    <thead class="thead-light">
+        <tr>
+            <th>Type</th>
+            <th>Count</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var typeHeadCount in Model)
+        {
+            <tr>
+                <td>@typeHeadCount.Type</td>
+                <td>@typeHeadCount.Count</td>
+            </tr>
+        }
+    </tbody>
+</table>
