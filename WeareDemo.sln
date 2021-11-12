@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeareDemo.Models", "WeareDe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeareDemo.Services", "WeareDemo.Services\WeareDemo.Services.csproj", "{B80C4863-4653-4760-BC92-F9A2BFB42554}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeareDemo.Services.Test", "WeareDemo.Services.Test\WeareDemo.Services.Test.csproj", "{1358DF55-0EB8-479D-90E1-E6D2883A8535}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeareDemo.Services.Test", "WeareDemo.Services.Test\WeareDemo.Services.Test.csproj", "{1358DF55-0EB8-479D-90E1-E6D2883A8535}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeareDemo.Test", "WeareDemo.Test\WeareDemo.Test.csproj", "{8F91E6A2-CB73-43AB-9C59-B31A3AB9E9A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{1358DF55-0EB8-479D-90E1-E6D2883A8535}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1358DF55-0EB8-479D-90E1-E6D2883A8535}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1358DF55-0EB8-479D-90E1-E6D2883A8535}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F91E6A2-CB73-43AB-9C59-B31A3AB9E9A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F91E6A2-CB73-43AB-9C59-B31A3AB9E9A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F91E6A2-CB73-43AB-9C59-B31A3AB9E9A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F91E6A2-CB73-43AB-9C59-B31A3AB9E9A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

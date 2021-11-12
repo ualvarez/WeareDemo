@@ -12,6 +12,7 @@ namespace WeareDemo.Services.Test
         
 
         [TestMethod]
+        [TestCategory("CRUD")]
         public void Test_GetAllProducts_ReturnCollectionOfProducts()
         {
             //Arrange            
@@ -26,6 +27,7 @@ namespace WeareDemo.Services.Test
         }
 
         [TestMethod]
+        [TestCategory("CRUD")]
         public void Test_GetProduct_ReturnProduct()
         {
             //Arrange            
@@ -43,6 +45,7 @@ namespace WeareDemo.Services.Test
 
 
         [TestMethod]
+        [TestCategory("CRUD")]
         public void Test_Add_Product_ReturnNewProduct()
         {
             //Arrange            
@@ -67,6 +70,7 @@ namespace WeareDemo.Services.Test
         }
 
         [TestMethod]
+        [TestCategory("CRUD")]
         public void Test_Update_Product_ReturnUpdatedProduct()
         {
             //Arrange            
@@ -87,6 +91,7 @@ namespace WeareDemo.Services.Test
         }
 
         [TestMethod]
+
         public void Test_ProductCountByType_ReturnCollectionOfTypeHeadCount()
         {
             //Arrange            
