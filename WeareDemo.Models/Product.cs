@@ -1,11 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
+
+
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
 namespace WeareDemo.Models
 {
-    public class Product
+    public class Product 
     {
         public int Id { get; set; }
 
@@ -24,5 +25,6 @@ namespace WeareDemo.Models
         [Required(ErrorMessage = "Type is required")]
         public ProductType Type { get; set; }
 
+       
     }
 }

@@ -26,7 +26,7 @@ namespace WeareDemo
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
-            services.AddSingleton<IProductRepository, DBProductRepository>();
+            services.AddSingleton<IProductRepository, MockProductRepository>();
             services.Configure<RouteOptions>(options =>
             {
                 options.LowercaseUrls = true;

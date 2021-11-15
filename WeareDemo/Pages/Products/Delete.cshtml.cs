@@ -29,7 +29,9 @@ namespace WeareDemo.Pages.Products
                 return RedirectToPage("/NotFound");
             }
 
-            return Page();
+            var result = Page();
+
+            return result;
         }
 
         public IActionResult OnPost()
